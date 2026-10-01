@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F8FAFC;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.card{
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 30%;
+    box-shadow: 0px 2px 2px #151515;
+    padding: 1.2rem 1.5rem;
+
+    
+    
+}
+
+
+h1{
+    font-family: "poppins",sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    justify-self: center;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.4rem;
+    
+    
+}
+
+p{
+   font-family: "poppins",sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    width: 70%;
+    text-align: center;
+    justify-self: center;
+     margin-bottom: 0.7rem;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 1.7rem;
+    padding: 0.4rem;
+    border: 1px solid #151515;
+}
+
+button{
+    background-color: #4949e0;
+    width: 100%;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 0.5rem;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 2s;
+    margin-bottom: 1rem;
+}
+
+
+button:hover{
+    background-color: #151515;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*screensize*/
+@media screen and (max-width: 768px) {
+
+    body{
+    background-color: #F8FAFC;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.card{
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 95%;
+    max-width:350px;
+    box-shadow: 0px 2px 2px #151515;
+    padding: 1.2rem 1.5rem;
+
+    
+    
+}
+
+
+h1{
+    font-family: "poppins",sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    justify-self: center;
+    width: 90%;
+    text-align: center;
+    
+    
+}
+
+p{
+   font-family: "poppins",sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    width: 70%;
+    text-align: center;
+    justify-self: center;
+     margin-bottom: 0.7rem;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 1.7rem;
+    padding: 0.4rem;
+    border: 1px solid #151515;
+
+}
+
+button{
+    background-color: #4949e0;
+    width: 100%;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 0.5rem;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 2s;
+    margin-bottom: 1rem;
+}
+
+
+button:hover{
+    background-color: #151515;
+    color: #ffffff;
+}
+
+
+
+
+
+}
